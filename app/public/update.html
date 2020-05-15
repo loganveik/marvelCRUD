@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/update.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Update Review</title>
+</head>
+
+<body>
+    <div class="container h-auto rounded">
+        <div class="formdisplay my-3 mx-3">
+            <h2 class="text-center">Update your review!</h2>
+            <form>
+                <div class="form-group">
+                    <label for="firstnameinput">Character Name:</label>
+                    <input type="text" class="form-control" id="characterinput">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Review:</label>
+                    <textarea class="form-control" id="reviewinput" rows="3"></textarea>
+                </div>
+                <div class="text-center">
+                    <a type="submit" class="btn my-2 mx-2" id="updatebtn">Update</a>
+                    <a type="submit" class="btn my-2 ml-2" id="viewbtn" href="view.html">Cancel</a>
+                </div>
+            </form>
+        </div>
+        <div class="submittext"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="js/update.js"></script>
+</body>
+
+</html>
